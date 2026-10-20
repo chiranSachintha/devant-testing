@@ -1,0 +1,3 @@
+# Copy this file to Config.toml and replace the value with the Devant test key.
+ServiceURL = "https://c7451a6b-c98b-4136-bd58-777fce3b83fc-dev.e1-us-east-azure.choreoapis.dev"
+ChoreoAPIKey = "REPLACE_WITH_DEVANT_TEST_KEY"
