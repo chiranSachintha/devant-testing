@@ -12,7 +12,7 @@ listener http:Listener inboundListener = new (9090);
 service / on inboundListener {
     resource function get greeting() returns http:Response|error {
         return check target->get(
-            "/tls-repro-server/hello-world-service/v1.0/greeting",
+            "/greeting",
             headers = {"Choreo-API-Key": ChoreoAPIKey}
         );
     }
