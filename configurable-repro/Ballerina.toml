@@ -1,0 +1,4 @@
+[package]
+org = "demo"
+name = "bank_app"
+version = "0.1.0"
